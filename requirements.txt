@@ -1,0 +1,6 @@
+openai>=1.40
+requests>=2.31
+
+# Optional (only if you wire the Google versions of the storage tools):
+# google-api-python-client>=2.0
+# google-auth>=2.0
