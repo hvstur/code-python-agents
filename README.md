@@ -41,10 +41,10 @@ Keys are read from the environment; nothing is hard-coded.
 ## Run
 
 ```bash
-python gaming_article_desk.py --topics 3 --language english --anchor "best crypto casinos" --url "https://example.com"
-python blog_comment_prospecting.py --niches "casino,sport betting" --out prospects.csv
-python bulk_article_generator.py --count 5 --brand "AcmeBet" --niche "online casino"
-python topic_queue_to_docs.py --topics topics.txt --brand "AcmeBet"
+python gaming_article_desk.py --topics 3 --language english --anchor "best project management tools" --url "https://example.com"
+python blog_comment_prospecting.py --niches "travel,home improvement" --out prospects.csv
+python bulk_article_generator.py --count 5 --brand "AcmeTravel" --niche "travel"
+python topic_queue_to_docs.py --topics topics.txt --brand "AcmeTravel"
 python forum_page_fetcher.py --urls forums.txt
 python telegram_content_bot.py
 ```

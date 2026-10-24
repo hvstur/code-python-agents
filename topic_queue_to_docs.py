@@ -7,7 +7,7 @@ document (local .md by default; Google Docs optional).
 Tools: read_topics, save_doc.
 Env: OPENAI_API_KEY, OPENAI_MODEL (optional).
 
-    python topic_queue_to_docs.py --topics topics.txt --brand "AcmeBet" --out docs
+    python topic_queue_to_docs.py --topics topics.txt --brand "AcmeTravel" --out docs
 """
 
 from __future__ import annotations

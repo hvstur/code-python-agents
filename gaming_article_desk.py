@@ -7,7 +7,7 @@ Tools: search_news, save_article.
 Env: OPENAI_API_KEY, SERPER_API_KEY (for search), OPENAI_MODEL (optional).
 
     python gaming_article_desk.py --topics 3 --language english \
-        --anchor "best crypto casinos" --url "https://example.com"
+        --anchor "best project management tools" --url "https://example.com"
 """
 
 from __future__ import annotations

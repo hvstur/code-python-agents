@@ -9,7 +9,7 @@ Results are written to a local CSV by default (Google Sheets optional — see RE
 Tools: serper_search, analyze_site, save_result.
 Env: OPENAI_API_KEY, SERPER_API_KEY, OPENAI_MODEL (optional).
 
-    python blog_comment_prospecting.py --niches "casino,sport betting" --out results.csv
+    python blog_comment_prospecting.py --niches "travel,home improvement" --out results.csv
 """
 
 from __future__ import annotations
@@ -93,7 +93,7 @@ Skip pages with no comment form. Work through all niches, then reply with a shor
 
 def main() -> None:
     p = argparse.ArgumentParser(description="Blog comment prospecting agent.")
-    p.add_argument("--niches", default="casino,sport betting")
+    p.add_argument("--niches", default="travel,home improvement")
     p.add_argument("--out", default="prospects.csv")
     a = p.parse_args()
 
